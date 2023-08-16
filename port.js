@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     downloadButton.addEventListener('click', function() {
 
-        const pdfPath ='https://raw.githubusercontent.com/BhavyaDBhardwaj.github.io/CodSoft/main/CV_bhavya.pdf';
+        const pdfPath ='https://drive.google.com/file/d/1FeFCOoXBMwur6ZubMLWlAQcLs0NHaT5z/view?usp=sharing';
 
         const anchor = document.createElement('a');
         anchor.href = pdfPath;
