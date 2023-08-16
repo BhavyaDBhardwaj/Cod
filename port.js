@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded', function() {
     downloadButton.addEventListener('click', function() {
 
         const pdfPath ='https://drive.google.com/file/d/1FeFCOoXBMwur6ZubMLWlAQcLs0NHaT5z/view?usp=sharing';
+        console.log("path",'https://drive.google.com/file/d/1FeFCOoXBMwur6ZubMLWlAQcLs0NHaT5z/view?usp=sharing');
+
 
         const anchor = document.createElement('a');
         anchor.href = pdfPath;
