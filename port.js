@@ -8,9 +8,10 @@ document.addEventListener('DOMContentLoaded', function() {
         const anchor = document.createElement('a');
         anchor.href = pdfPath;
         anchor.download = 'downloaded_CV.pdf';
-        anchor.target = '_blank';
+        documnet.body.appendChild(anchor);
 
         anchor.click();
+        document.body.removeChild(anchor);
     });
 });
 
